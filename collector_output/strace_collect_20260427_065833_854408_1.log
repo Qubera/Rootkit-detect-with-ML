@@ -1,0 +1,55 @@
+6558  execve("/usr/bin/kill", ["kill", "-31", "1"], 0x7ffc77b98470 /* 57 vars */) = 0
+6558  brk(NULL)                         = 0x561c36130000
+6558  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe4b16e4000
+6558  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+6558  fstat(3, {st_mode=S_IFREG|0644, st_size=103703, ...}) = 0
+6558  mmap(NULL, 103703, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe4b16ca000
+6558  close(3)                          = 0
+6558  openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+6558  read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+6558  pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+6558  fstat(3, {st_mode=S_IFREG|0755, st_size=2014472, ...}) = 0
+6558  pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+6558  mmap(NULL, 2055760, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe4b14d4000
+6558  mmap(0x7fe4b14fc000, 1474560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fe4b14fc000
+6558  mmap(0x7fe4b1664000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x190000) = 0x7fe4b1664000
+6558  mmap(0x7fe4b16b7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7fe4b16b7000
+6558  mmap(0x7fe4b16bd000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe4b16bd000
+6558  close(3)                          = 0
+6558  mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe4b14d1000
+6558  arch_prctl(ARCH_SET_FS, 0x7fe4b14d1740) = 0
+6558  set_tid_address(0x7fe4b14d1a10)   = 6558
+6558  set_robust_list(0x7fe4b14d1a20, 24) = 0
+6558  rseq(0x7fe4b14d1680, 0x20, 0, 0x53053053) = 0
+6558  mprotect(0x7fe4b16b7000, 16384, PROT_READ) = 0
+6558  mprotect(0x561c1bb75000, 4096, PROT_READ) = 0
+6558  mprotect(0x7fe4b1722000, 8192, PROT_READ) = 0
+6558  prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+6558  getrandom("\xe8\xb7\xf9\xa9\x69\xd3\xe5\x5f", 8, GRND_NONBLOCK) = 8
+6558  munmap(0x7fe4b16ca000, 103703)    = 0
+6558  brk(NULL)                         = 0x561c36130000
+6558  brk(0x561c36151000)               = 0x561c36151000
+6558  openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+6558  fstat(3, {st_mode=S_IFREG|0644, st_size=3063024, ...}) = 0
+6558  mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe4b1000000
+6558  close(3)                          = 0
+6558  openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  kill(1, SIGSYS)                   = -1 EPERM (Operation not permitted)
+6558  write(2, "kill: ", 6)             = 6
+6558  write(2, "(1)", 3)                = 3
+6558  openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6558  write(2, ": Operation not permitted", 25) = 25
+6558  write(2, "\n", 1)                 = 1
+6558  exit_group(1)                     = ?

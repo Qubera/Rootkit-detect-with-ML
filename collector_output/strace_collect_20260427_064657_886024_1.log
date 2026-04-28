@@ -1,0 +1,223 @@
+19702 execve("/usr/bin/ls", ["ls", "-la", "/"], 0x7fffdc188e20 /* 60 vars */) = 0
+19702 brk(NULL)                         = 0x556c4f80e000
+19702 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f522725d000
+19702 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=103703, ...}) = 0
+19702 mmap(NULL, 103703, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5227243000
+19702 close(3)                          = 0
+19702 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+19702 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=194792, ...}) = 0
+19702 mmap(NULL, 202224, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5227211000
+19702 mmap(0x7f5227217000, 131072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f5227217000
+19702 mmap(0x7f5227237000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7f5227237000
+19702 mmap(0x7f522723f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2e000) = 0x7f522723f000
+19702 mmap(0x7f5227241000, 5616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5227241000
+19702 close(3)                          = 0
+19702 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+19702 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+19702 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+19702 fstat(3, {st_mode=S_IFREG|0755, st_size=2014472, ...}) = 0
+19702 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+19702 mmap(NULL, 2055760, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f522701b000
+19702 mmap(0x7f5227043000, 1474560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f5227043000
+19702 mmap(0x7f52271ab000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x190000) = 0x7f52271ab000
+19702 mmap(0x7f52271fe000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7f52271fe000
+19702 mmap(0x7f5227204000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5227204000
+19702 close(3)                          = 0
+19702 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+19702 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=711216, ...}) = 0
+19702 mmap(NULL, 713544, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5226f6c000
+19702 mmap(0x7f5226f6f000, 503808, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f5226f6f000
+19702 mmap(0x7f5226fea000, 192512, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7e000) = 0x7f5226fea000
+19702 mmap(0x7f5227019000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xac000) = 0x7f5227019000
+19702 close(3)                          = 0
+19702 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5226f6a000
+19702 arch_prctl(ARCH_SET_FS, 0x7f5226f6ac80) = 0
+19702 set_tid_address(0x7f5226f6af50)   = 19702
+19702 set_robust_list(0x7f5226f6af60, 24) = 0
+19702 rseq(0x7f5226f6aae0, 0x20, 0, 0x53053053) = 0
+19702 mprotect(0x7f52271fe000, 16384, PROT_READ) = 0
+19702 mprotect(0x7f5227019000, 4096, PROT_READ) = 0
+19702 mprotect(0x7f522723f000, 4096, PROT_READ) = 0
+19702 mprotect(0x556c45d0e000, 8192, PROT_READ) = 0
+19702 mprotect(0x7f522729b000, 8192, PROT_READ) = 0
+19702 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+19702 getrandom("\x91\xaf\x18\xfd\x6d\xbb\xbc\x94", 8, GRND_NONBLOCK) = 8
+19702 munmap(0x7f5227243000, 103703)    = 0
+19702 statfs("/sys/fs/selinux", 0x7ffc09edbac0) = -1 ENOENT (No such file or directory)
+19702 statfs("/selinux", 0x7ffc09edbac0) = -1 ENOENT (No such file or directory)
+19702 brk(NULL)                         = 0x556c4f80e000
+19702 brk(0x556c4f82f000)               = 0x556c4f82f000
+19702 openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+19702 fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+19702 read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 393
+19702 read(3, "", 1024)                 = 0
+19702 close(3)                          = 0
+19702 access("/etc/selinux/config", F_OK) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=3063024, ...}) = 0
+19702 mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5226c00000
+19702 close(3)                          = 0
+19702 ioctl(1, TCGETS2, {c_iflag=ICRNL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+19702 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 statx(AT_FDCWD, "/", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/", "", 152)          = 0
+19702 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+19702 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+19702 close(3)                          = 0
+19702 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+19702 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+19702 close(3)                          = 0
+19702 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+19702 newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+19702 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=558, ...}) = 0
+19702 read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 558
+19702 read(3, "", 4096)                 = 0
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=558, ...}) = 0
+19702 close(3)                          = 0
+19702 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+19702 lseek(3, 0, SEEK_SET)             = 0
+19702 read(3, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3325
+19702 lseek(3, 35, SEEK_SET)            = 35
+19702 close(3)                          = 0
+19702 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+19702 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+19702 close(3)                          = 0
+19702 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+19702 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+19702 close(3)                          = 0
+19702 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+19702 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 3
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=1403, ...}) = 0
+19702 lseek(3, 0, SEEK_SET)             = 0
+19702 read(3, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1403
+19702 lseek(3, 10, SEEK_SET)            = 10
+19702 close(3)                          = 0
+19702 openat(AT_FDCWD, "/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+19702 fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+19702 getdents64(3, 0x556c4f817450 /* 28 entries */, 32768) = 744
+19702 statx(AT_FDCWD, "/media", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/media", "", 152)     = 0
+19702 statx(AT_FDCWD, "/run", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=1060, ...}) = 0
+19702 llistxattr("/run", "", 152)       = 0
+19702 statx(AT_FDCWD, "/lost+found", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0700, stx_size=16384, ...}) = 0
+19702 llistxattr("/lost+found", "", 152) = 0
+19702 statx(AT_FDCWD, "/initrd.img.old", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=34, ...}) = 0
+19702 llistxattr("/initrd.img.old", "", 152) = 0
+19702 readlink("/initrd.img.old", "boot/initrd.img-6.18.12+kali-amd"..., 35) = 34
+19702 statx(AT_FDCWD, "/srv", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/srv", "", 152)       = 0
+19702 statx(AT_FDCWD, "/mnt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/mnt", "", 152)       = 0
+19702 statx(AT_FDCWD, "/boot", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/boot", "", 152)      = 0
+19702 statx(AT_FDCWD, "/root", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0700, stx_size=4096, ...}) = 0
+19702 llistxattr("/root", "", 152)      = 0
+19702 statx(AT_FDCWD, "/tmp", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|S_ISVTX|0777, stx_size=300, ...}) = 0
+19702 llistxattr("/tmp", "", 152)       = 0
+19702 statx(AT_FDCWD, "/..", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/..", "", 152)        = 0
+19702 statx(AT_FDCWD, "/lib32", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=9, ...}) = 0
+19702 llistxattr("/lib32", "", 152)     = 0
+19702 readlink("/lib32", "usr/lib32", 10) = 9
+19702 statx(AT_FDCWD, "/etc", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=12288, ...}) = 0
+19702 llistxattr("/etc", "", 152)       = 0
+19702 statx(AT_FDCWD, "/proc", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+19702 llistxattr("/proc", "", 152)      = 0
+19702 statx(AT_FDCWD, "/home", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/home", "", 152)      = 0
+19702 statx(AT_FDCWD, "/var", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/var", "", 152)       = 0
+19702 statx(AT_FDCWD, "/lib", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=7, ...}) = 0
+19702 llistxattr("/lib", "", 152)       = 0
+19702 readlink("/lib", "usr/lib", 8)    = 7
+19702 statx(AT_FDCWD, "/dev", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=3220, ...}) = 0
+19702 llistxattr("/dev", "", 152)       = 0
+19702 statx(AT_FDCWD, "/.", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/.", "", 152)         = 0
+19702 statx(AT_FDCWD, "/bin", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=7, ...}) = 0
+19702 llistxattr("/bin", "", 152)       = 0
+19702 readlink("/bin", "usr/bin", 8)    = 7
+19702 statx(AT_FDCWD, "/opt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/opt", "", 152)       = 0
+19702 statx(AT_FDCWD, "/sys", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+19702 llistxattr("/sys", "", 152)       = 0
+19702 statx(AT_FDCWD, "/initrd.img", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=34, ...}) = 0
+19702 llistxattr("/initrd.img", "", 152) = 0
+19702 readlink("/initrd.img", "boot/initrd.img-6.19.11+kali-amd"..., 35) = 34
+19702 statx(AT_FDCWD, "/usr", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+19702 llistxattr("/usr", "", 152)       = 0
+19702 statx(AT_FDCWD, "/vmlinuz.old", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=31, ...}) = 0
+19702 llistxattr("/vmlinuz.old", "", 152) = 0
+19702 readlink("/vmlinuz.old", "boot/vmlinuz-6.18.12+kali-amd64", 32) = 31
+19702 statx(AT_FDCWD, "/sbin", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=8, ...}) = 0
+19702 llistxattr("/sbin", "", 152)      = 0
+19702 readlink("/sbin", "usr/sbin", 9)  = 8
+19702 statx(AT_FDCWD, "/swap", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0600, stx_size=1000000000, ...}) = 0
+19702 llistxattr("/swap", "", 152)      = 0
+19702 statx(AT_FDCWD, "/lib64", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=9, ...}) = 0
+19702 llistxattr("/lib64", "", 152)     = 0
+19702 readlink("/lib64", "usr/lib64", 10) = 9
+19702 statx(AT_FDCWD, "/vmlinuz", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=31, ...}) = 0
+19702 llistxattr("/vmlinuz", "", 152)   = 0
+19702 readlink("/vmlinuz", "boot/vmlinuz-6.19.11+kali-amd64", 32) = 31
+19702 getdents64(3, 0x556c4f817450 /* 0 entries */, 32768) = 0
+19702 close(3)                          = 0
+19702 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+19702 fstat(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(0x88, 0), ...}) = 0
+19702 write(1, "total 976640\n", 13)    = 13
+19702 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=3552, ...}) = 0
+19702 fstat(3, {st_mode=S_IFREG|0644, st_size=3552, ...}) = 0
+19702 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\6\0\0\0\0"..., 4096) = 3552
+19702 lseek(3, -2260, SEEK_CUR)         = 1292
+19702 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\6\0\0\0\0"..., 4096) = 2260
+19702 lseek(3, 3551, SEEK_SET)          = 3551
+19702 close(3)                          = 0
+19702 write(1, "drwxr-xr-x  18 root root       4"..., 51) = 51
+19702 write(1, "drwxr-xr-x  18 root root       4"..., 52) = 52
+19702 write(1, "lrwxrwxrwx   1 root root        "..., 64) = 64
+19702 write(1, "drwxr-xr-x   3 root root       4"..., 54) = 54
+19702 write(1, "drwxr-xr-x  18 root root       3"..., 53) = 53
+19702 write(1, "drwxr-xr-x 189 root root      12"..., 53) = 53
+19702 write(1, "drwxr-xr-x   4 root root       4"..., 54) = 54
+19702 write(1, "lrwxrwxrwx   1 root root        "..., 98) = 98
+19702 write(1, "lrwxrwxrwx   1 root root        "..., 102) = 102
+19702 write(1, "lrwxrwxrwx   1 root root        "..., 64) = 64
+19702 write(1, "lrwxrwxrwx   1 root root        "..., 68) = 68
+19702 write(1, "lrwxrwxrwx   1 root root        "..., 68) = 68
+19702 write(1, "drwx------   2 root root      16"..., 60) = 60
+19702 write(1, "drwxr-xr-x   3 root root       4"..., 55) = 55
+19702 write(1, "drwxr-xr-x   2 root root       4"..., 53) = 53
+19702 write(1, "drwxr-xr-x   3 root root       4"..., 53) = 53
+19702 write(1, "dr-xr-xr-x 276 root root        "..., 54) = 54
+19702 write(1, "drwx------  11 root root       4"..., 54) = 54
+19702 write(1, "drwxr-xr-x  42 root root       1"..., 53) = 53
+19702 write(1, "lrwxrwxrwx   1 root root        "..., 66) = 66
+19702 write(1, "drwxr-xr-x   3 root root       4"..., 53) = 53
+19702 write(1, "-rw-------   1 root root 1000000"..., 54) = 54
+19702 write(1, "dr-xr-xr-x  13 root root        "..., 53) = 53
+19702 write(1, "drwxrwxrwt  11 root root        "..., 53) = 53
+19702 write(1, "drwxr-xr-x  15 root root       4"..., 53) = 53
+19702 write(1, "drwxr-xr-x  12 root root       4"..., 53) = 53
+19702 write(1, "lrwxrwxrwx   1 root root        "..., 92) = 92
+19702 write(1, "lrwxrwxrwx   1 root root        "..., 96) = 96
+19702 close(1)                          = 0
+19702 close(2)                          = 0
+19702 exit_group(0)                     = ?

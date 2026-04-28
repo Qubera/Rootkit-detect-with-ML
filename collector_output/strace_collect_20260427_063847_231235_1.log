@@ -1,0 +1,1050 @@
+10338 execve("/usr/bin/ls", ["ls", "-la", "/proc"], 0x7ffdcfcf9a80 /* 60 vars */) = 0
+10338 brk(NULL)                         = 0x55a857d3d000
+10338 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98b0ccd000
+10338 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=103703, ...}) = 0
+10338 mmap(NULL, 103703, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f98b0cb3000
+10338 close(3)                          = 0
+10338 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+10338 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=194792, ...}) = 0
+10338 mmap(NULL, 202224, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f98b0c81000
+10338 mmap(0x7f98b0c87000, 131072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f98b0c87000
+10338 mmap(0x7f98b0ca7000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7f98b0ca7000
+10338 mmap(0x7f98b0caf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2e000) = 0x7f98b0caf000
+10338 mmap(0x7f98b0cb1000, 5616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f98b0cb1000
+10338 close(3)                          = 0
+10338 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+10338 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+10338 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+10338 fstat(3, {st_mode=S_IFREG|0755, st_size=2014472, ...}) = 0
+10338 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+10338 mmap(NULL, 2055760, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f98b0a8b000
+10338 mmap(0x7f98b0ab3000, 1474560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f98b0ab3000
+10338 mmap(0x7f98b0c1b000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x190000) = 0x7f98b0c1b000
+10338 mmap(0x7f98b0c6e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7f98b0c6e000
+10338 mmap(0x7f98b0c74000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f98b0c74000
+10338 close(3)                          = 0
+10338 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+10338 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=711216, ...}) = 0
+10338 mmap(NULL, 713544, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f98b09dc000
+10338 mmap(0x7f98b09df000, 503808, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f98b09df000
+10338 mmap(0x7f98b0a5a000, 192512, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7e000) = 0x7f98b0a5a000
+10338 mmap(0x7f98b0a89000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xac000) = 0x7f98b0a89000
+10338 close(3)                          = 0
+10338 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f98b09da000
+10338 arch_prctl(ARCH_SET_FS, 0x7f98b09dac80) = 0
+10338 set_tid_address(0x7f98b09daf50)   = 10338
+10338 set_robust_list(0x7f98b09daf60, 24) = 0
+10338 rseq(0x7f98b09daae0, 0x20, 0, 0x53053053) = 0
+10338 mprotect(0x7f98b0c6e000, 16384, PROT_READ) = 0
+10338 mprotect(0x7f98b0a89000, 4096, PROT_READ) = 0
+10338 mprotect(0x7f98b0caf000, 4096, PROT_READ) = 0
+10338 mprotect(0x55a83ab73000, 8192, PROT_READ) = 0
+10338 mprotect(0x7f98b0d0b000, 8192, PROT_READ) = 0
+10338 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+10338 getrandom("\x90\x63\xee\x51\xf8\x80\x4d\xd5", 8, GRND_NONBLOCK) = 8
+10338 munmap(0x7f98b0cb3000, 103703)    = 0
+10338 statfs("/sys/fs/selinux", 0x7fff1c8875a0) = -1 ENOENT (No such file or directory)
+10338 statfs("/selinux", 0x7fff1c8875a0) = -1 ENOENT (No such file or directory)
+10338 brk(NULL)                         = 0x55a857d3d000
+10338 brk(0x55a857d5e000)               = 0x55a857d5e000
+10338 openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+10338 fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+10338 read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 393
+10338 read(3, "", 1024)                 = 0
+10338 close(3)                          = 0
+10338 access("/etc/selinux/config", F_OK) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=3063024, ...}) = 0
+10338 mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f98b0600000
+10338 close(3)                          = 0
+10338 ioctl(1, TCGETS2, {c_iflag=ICRNL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+10338 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 statx(AT_FDCWD, "/proc", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc", "", 152)      = 0
+10338 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+10338 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+10338 close(3)                          = 0
+10338 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+10338 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+10338 close(3)                          = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=558, ...}) = 0
+10338 read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 558
+10338 read(3, "", 4096)                 = 0
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=558, ...}) = 0
+10338 close(3)                          = 0
+10338 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+10338 lseek(3, 0, SEEK_SET)             = 0
+10338 read(3, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3325
+10338 lseek(3, 35, SEEK_SET)            = 35
+10338 close(3)                          = 0
+10338 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+10338 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+10338 close(3)                          = 0
+10338 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+10338 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+10338 close(3)                          = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 3
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=1403, ...}) = 0
+10338 lseek(3, 0, SEEK_SET)             = 0
+10338 read(3, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1403
+10338 lseek(3, 10, SEEK_SET)            = 10
+10338 close(3)                          = 0
+10338 openat(AT_FDCWD, "/proc", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+10338 fstat(3, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+10338 getdents64(3, 0x55a857d46450 /* 272 entries */, 32768) = 6912
+10338 statx(AT_FDCWD, "/proc/.", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/.", "", 152)    = 0
+10338 statx(AT_FDCWD, "/proc/..", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+10338 llistxattr("/proc/..", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/fb", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/fb", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/fs", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/fs", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/bus", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/bus", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/dma", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/dma", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/irq", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/irq", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/net", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=8, ...}) = 0
+10338 llistxattr("/proc/net", "", 152)  = 0
+10338 readlink("/proc/net", "self/net", 9) = 8
+10338 statx(AT_FDCWD, "/proc/sys", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/sys", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/tty", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/tty", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/acpi", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/acpi", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/keys", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/keys", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/kmsg", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0400, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/kmsg", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/misc", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/misc", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/mtrr", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/mtrr", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/stat", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/stat", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/iomem", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/iomem", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/kcore", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0400, stx_size=140737471590400, ...}) = 0
+10338 llistxattr("/proc/kcore", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/locks", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/locks", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/swaps", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/swaps", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/asound", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/asound", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/crypto", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/crypto", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/driver", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/driver", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/mounts", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=11, ...}) = 0
+10338 llistxattr("/proc/mounts", "", 152) = 0
+10338 readlink("/proc/mounts", "self/mounts", 12) = 11
+10338 statx(AT_FDCWD, "/proc/uptime", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/uptime", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/vmstat", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/vmstat", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/cgroups", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/cgroups", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/cmdline", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=129, ...}) = 0
+10338 llistxattr("/proc/cmdline", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/cpuinfo", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/cpuinfo", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/devices", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/devices", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/ioports", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/ioports", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/loadavg", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/loadavg", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/meminfo", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/meminfo", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/modules", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/modules", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/sysvipc", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/sysvipc", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/version", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/version", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/consoles", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/consoles", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/kallsyms", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/kallsyms", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/pressure", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/pressure", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/slabinfo", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0400, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/slabinfo", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/softirqs", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/softirqs", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/zoneinfo", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/zoneinfo", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/buddyinfo", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/buddyinfo", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/diskstats", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/diskstats", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/key-users", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/key-users", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/schedstat", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/schedstat", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/interrupts", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/interrupts", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/kpagecount", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0400, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/kpagecount", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/kpageflags", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0400, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/kpageflags", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/partitions", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/partitions", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/timer_list", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0400, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/timer_list", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/execdomains", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/execdomains", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/filesystems", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0444, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/filesystems", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/kpagecgroup", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0400, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/kpagecgroup", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/vmallocinfo", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0400, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/vmallocinfo", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/pagetypeinfo", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0400, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/pagetypeinfo", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/dynamic_debug", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/dynamic_debug", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/sysrq-trigger", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0200, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/sysrq-trigger", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/self", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/self", "", 152) = 0
+10338 readlink("/proc/self", "10338", 128) = 5
+10338 statx(AT_FDCWD, "/proc/thread-self", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/thread-self", "", 152) = 0
+10338 readlink("/proc/thread-self", "10338/task/10338", 128) = 16
+10338 statx(AT_FDCWD, "/proc/1", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1", "", 152)    = 0
+10338 statx(AT_FDCWD, "/proc/2", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2", "", 152)    = 0
+10338 statx(AT_FDCWD, "/proc/3", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/3", "", 152)    = 0
+10338 statx(AT_FDCWD, "/proc/4", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/4", "", 152)    = 0
+10338 statx(AT_FDCWD, "/proc/5", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/5", "", 152)    = 0
+10338 statx(AT_FDCWD, "/proc/6", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/6", "", 152)    = 0
+10338 statx(AT_FDCWD, "/proc/7", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/7", "", 152)    = 0
+10338 statx(AT_FDCWD, "/proc/8", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/8", "", 152)    = 0
+10338 statx(AT_FDCWD, "/proc/10", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/10", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/11", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/11", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/12", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/12", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/13", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/13", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/14", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/14", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/15", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/15", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/16", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/16", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/17", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/17", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/18", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/18", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/19", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/19", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/20", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/20", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/21", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/21", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/22", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/22", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/23", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/23", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/24", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/24", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/26", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/26", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/27", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/27", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/28", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/28", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/29", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/29", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/30", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/30", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/32", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/32", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/33", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/33", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/34", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/34", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/35", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/35", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/36", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/36", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/39", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/39", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/40", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/40", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/42", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/42", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/45", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/45", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/46", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/46", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/47", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/47", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/48", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/48", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/49", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/49", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/50", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/50", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/51", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/51", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/52", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/52", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/53", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/53", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/54", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/54", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/55", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/55", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/56", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/56", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/57", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/57", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/58", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/58", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/59", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/59", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/60", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/60", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/61", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/61", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/62", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/62", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/63", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/63", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/64", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/64", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/65", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/65", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/66", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/66", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/67", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/67", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/68", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/68", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/69", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/69", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/70", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/70", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/71", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/71", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/72", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/72", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/75", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/75", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/76", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/76", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/77", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/77", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/78", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/78", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/79", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/79", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/80", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/80", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/81", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/81", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/82", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/82", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/83", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/83", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/84", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/84", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/91", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/91", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/92", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/92", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/93", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/93", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/94", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/94", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/95", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/95", "", 152)   = 0
+10338 statx(AT_FDCWD, "/proc/146", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/146", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/159", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/159", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/161", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/161", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/222", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/222", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/224", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/224", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/235", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/235", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/236", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/236", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/237", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/237", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/238", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/238", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/240", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/240", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/241", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/241", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/242", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/242", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/245", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/245", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/246", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/246", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/247", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/247", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/248", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/248", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/281", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/281", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/282", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/282", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/332", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/332", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/342", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/342", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/356", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/356", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/379", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/379", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/386", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/386", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/452", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/452", "", 152)  = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3325
+10338 lseek(4, 1056, SEEK_SET)          = 1056
+10338 close(4)                          = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=1403, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1403
+10338 lseek(4, 666, SEEK_SET)           = 666
+10338 close(4)                          = 0
+10338 statx(AT_FDCWD, "/proc/461", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/461", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/493", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/493", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/505", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/505", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/506", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/506", "", 152)  = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3325
+10338 lseek(4, 1127, SEEK_SET)          = 1127
+10338 close(4)                          = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=1403, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1403
+10338 lseek(4, 684, SEEK_SET)           = 684
+10338 close(4)                          = 0
+10338 statx(AT_FDCWD, "/proc/507", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/507", "", 152)  = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3325
+10338 lseek(4, 2136, SEEK_SET)          = 2136
+10338 close(4)                          = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=1403, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1403
+10338 lseek(4, 895, SEEK_SET)           = 895
+10338 close(4)                          = 0
+10338 statx(AT_FDCWD, "/proc/510", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/510", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/527", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/527", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/529", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/529", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/536", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/536", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/551", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/551", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/598", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/598", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/610", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/610", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/612", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/612", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/652", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/652", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/653", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/653", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/672", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/672", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/674", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/674", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/679", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/679", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/681", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/681", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/682", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/682", "", 152)  = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3325
+10338 lseek(4, 575, SEEK_SET)           = 575
+10338 close(4)                          = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=1403, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1403
+10338 lseek(4, 306, SEEK_SET)           = 306
+10338 close(4)                          = 0
+10338 statx(AT_FDCWD, "/proc/683", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/683", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/684", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/684", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/685", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/685", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/712", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/712", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/718", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/718", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/740", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/740", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/791", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/791", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/792", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/792", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/836", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/836", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/857", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/857", "", 152)  = 0
+10338 statx(AT_FDCWD, "/proc/938", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/938", "", 152)  = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3325
+10338 lseek(4, 2188, SEEK_SET)          = 2188
+10338 close(4)                          = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=1403, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1403
+10338 lseek(4, 908, SEEK_SET)           = 908
+10338 close(4)                          = 0
+10338 statx(AT_FDCWD, "/proc/1342", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1342", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1356", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1356", "", 152) = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3325
+10338 lseek(4, 3253, SEEK_SET)          = 3253
+10338 close(4)                          = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=1403, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1403
+10338 lseek(4, 1267, SEEK_SET)          = 1267
+10338 close(4)                          = 0
+10338 statx(AT_FDCWD, "/proc/1358", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1358", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1379", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1379", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1380", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1380", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1382", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1382", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1383", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1383", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1384", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1384", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1386", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1386", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1389", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1389", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1403", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1403", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1471", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1471", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1473", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1473", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1479", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1479", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1482", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1482", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1487", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1487", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1489", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1489", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1503", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1503", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1505", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1505", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1523", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1523", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1530", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1530", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1540", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1540", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1548", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1548", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1557", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1557", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1560", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1560", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1565", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1565", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1571", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1571", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1602", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1602", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1611", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1611", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1612", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1612", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1621", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1621", "", 152) = 0
+10338 brk(0x55a857d8b000)               = 0x55a857d8b000
+10338 brk(0x55a857d80000)               = 0x55a857d80000
+10338 statx(AT_FDCWD, "/proc/1628", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1628", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1633", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1633", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1663", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1663", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1683", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1683", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1685", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1685", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1687", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1687", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1689", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1689", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1690", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1690", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1708", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1708", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1776", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1776", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/1802", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/1802", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2008", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2008", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2017", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2017", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2021", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2021", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2030", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2030", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2031", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2031", "", 152) = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:0:root:/root:/usr/bin/z"..., 4096) = 3325
+10338 lseek(4, 2271, SEEK_SET)          = 2271
+10338 close(4)                          = 0
+10338 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=558, ...}, 0) = 0
+10338 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+10338 fstat(4, {st_mode=S_IFREG|0644, st_size=1403, ...}) = 0
+10338 lseek(4, 0, SEEK_SET)             = 0
+10338 read(4, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1403
+10338 lseek(4, 922, SEEK_SET)           = 922
+10338 close(4)                          = 0
+10338 statx(AT_FDCWD, "/proc/2032", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2032", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2041", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2041", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2044", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2044", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2049", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2049", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2086", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2086", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2199", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2199", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2217", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2217", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2246", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2246", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2255", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2255", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2261", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2261", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2266", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2266", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2281", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2281", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2293", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2293", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2466", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2466", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2480", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2480", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2488", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2488", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2494", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2494", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/2499", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/2499", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/4013", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/4013", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/4020", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/4020", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/5585", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/5585", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/5924", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/5924", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/6097", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/6097", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/6619", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/6619", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/6624", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/6624", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/6625", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/6625", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/7145", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/7145", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/7850", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/7850", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/10322", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/10322", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/10336", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/10336", "", 152) = 0
+10338 statx(AT_FDCWD, "/proc/10338", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0555, stx_size=0, ...}) = 0
+10338 llistxattr("/proc/10338", "", 152) = 0
+10338 getdents64(3, 0x55a857d46450 /* 0 entries */, 32768) = 0
+10338 close(3)                          = 0
+10338 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+10338 fstat(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(0x88, 0), ...}) = 0
+10338 write(1, "total 4\n", 8)          = 8
+10338 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=3552, ...}) = 0
+10338 fstat(3, {st_mode=S_IFREG|0644, st_size=3552, ...}) = 0
+10338 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\6\0\0\0\0"..., 4096) = 3552
+10338 lseek(3, -2260, SEEK_CUR)         = 1292
+10338 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\6\0\0\0\0"..., 4096) = 2260
+10338 lseek(3, 3551, SEEK_SET)          = 3551
+10338 close(3)                          = 0
+10338 write(1, "dr-xr-xr-x 270 root             "..., 80) = 80
+10338 write(1, "drwxr-xr-x  18 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 80) = 80
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 84) = 84
+10338 write(1, "dr-xr-xr-x   9 root             "..., 84) = 84
+10338 write(1, "dr-xr-xr-x   9 root             "..., 84) = 84
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 80) = 80
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 colord           "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 80) = 80
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 80) = 80
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 systemd-timesync "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 80) = 80
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 messagebus       "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 polkitd          "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 80) = 80
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 kali             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 www-data         "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 www-data         "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 www-data         "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 www-data         "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 80) = 80
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 80) = 80
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 rtkit            "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   9 root             "..., 81) = 81
+10338 write(1, "dr-xr-xr-x   3 root             "..., 83) = 83
+10338 write(1, "dr-xr-xr-x  12 root             "..., 85) = 85
+10338 write(1, "-r--r--r--   1 root             "..., 88) = 88
+10338 write(1, "dr-xr-xr-x   4 root             "..., 82) = 82
+10338 write(1, "-r--r--r--   1 root             "..., 86) = 86
+10338 write(1, "-r--r--r--   1 root             "..., 86) = 86
+10338 write(1, "-r--r--r--   1 root             "..., 87) = 87
+10338 write(1, "-r--r--r--   1 root             "..., 86) = 86
+10338 write(1, "-r--r--r--   1 root             "..., 85) = 85
+10338 write(1, "-r--r--r--   1 root             "..., 86) = 86
+10338 write(1, "-r--r--r--   1 root             "..., 88) = 88
+10338 write(1, "-r--r--r--   1 root             "..., 82) = 82
+10338 write(1, "dr-xr-xr-x   3 root             "..., 85) = 85
+10338 write(1, "dr-xr-xr-x   3 root             "..., 92) = 92
+10338 write(1, "-r--r--r--   1 root             "..., 90) = 90
+10338 write(1, "-r--r--r--   1 root             "..., 81) = 81
+10338 write(1, "-r--r--r--   1 root             "..., 90) = 90
+10338 write(1, "dr-xr-xr-x   5 root             "..., 81) = 81
+10338 write(1, "-r--r--r--   1 root             "..., 89) = 89
+10338 write(1, "-r--r--r--   1 root             "..., 84) = 84
+10338 write(1, "-r--r--r--   1 root             "..., 86) = 86
+10338 write(1, "dr-xr-xr-x  24 root             "..., 82) = 82
+10338 write(1, "-r--r--r--   1 root             "..., 87) = 87
+10338 write(1, "-r--------   1 root             "..., 84) = 84
+10338 write(1, "-r--r--r--   1 root             "..., 83) = 83
+10338 write(1, "-r--r--r--   1 root             "..., 88) = 88
+10338 write(1, "-r--------   1 root             "..., 83) = 83
+10338 write(1, "-r--------   1 root             "..., 90) = 90
+10338 write(1, "-r--------   1 root             "..., 89) = 89
+10338 write(1, "-r--------   1 root             "..., 89) = 89
+10338 write(1, "-r--r--r--   1 root             "..., 86) = 86
+10338 write(1, "-r--r--r--   1 root             "..., 84) = 84
+10338 write(1, "-r--r--r--   1 root             "..., 86) = 86
+10338 write(1, "-r--r--r--   1 root             "..., 83) = 83
+10338 write(1, "-r--r--r--   1 root             "..., 86) = 86
+10338 write(1, "lrwxrwxrwx   1 root             "..., 100) = 100
+10338 write(1, "-rw-r--r--   1 root             "..., 83) = 83
+10338 write(1, "lrwxrwxrwx   1 root             "..., 94) = 94
+10338 write(1, "-r--------   1 root             "..., 91) = 91
+10338 write(1, "-r--r--r--   1 root             "..., 89) = 89
+10338 write(1, "dr-xr-xr-x   5 root             "..., 87) = 87
+10338 write(1, "-r--r--r--   1 root             "..., 88) = 88
+10338 write(1, "lrwxrwxrwx   1 root             "..., 92) = 92
+10338 write(1, "-r--------   1 root             "..., 87) = 87
+10338 write(1, "-r--r--r--   1 root             "..., 87) = 87
+10338 write(1, "-r--r--r--   1 root             "..., 83) = 83
+10338 write(1, "-r--r--r--   1 root             "..., 84) = 84
+10338 write(1, "dr-xr-xr-x   1 root             "..., 82) = 82
+10338 write(1, "--w-------   1 root             "..., 92) = 92
+10338 write(1, "dr-xr-xr-x   5 root             "..., 86) = 86
+10338 write(1, "lrwxrwxrwx   1 root             "..., 110) = 110
+10338 write(1, "-r--------   1 root             "..., 89) = 89
+10338 write(1, "dr-xr-xr-x   6 root             "..., 82) = 82
+10338 write(1, "-r--r--r--   1 root             "..., 85) = 85
+10338 write(1, "-r--r--r--   1 root             "..., 86) = 86
+10338 write(1, "-r--------   1 root             "..., 90) = 90
+10338 write(1, "-r--r--r--   1 root             "..., 85) = 85
+10338 write(1, "-r--r--r--   1 root             "..., 87) = 87
+10338 close(1)                          = 0
+10338 close(2)                          = 0
+10338 exit_group(0)                     = ?

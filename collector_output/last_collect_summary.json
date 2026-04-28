@@ -1,0 +1,22 @@
+{
+  "output_csv": "test_kill64.csv",
+  "total_rows_written": 45,
+  "label": null,
+  "session_id": "collect_20260427_071000_752117",
+  "commands": [
+    {
+      "raw_trace": "collector_output/strace_collect_20260427_071000_752117_1.log",
+      "rows_written": 45,
+      "label": null,
+      "session_id": "collect_20260427_071000_752117",
+      "source_command": [
+        "kill",
+        "-64",
+        "1"
+      ],
+      "target_exit_code": 0,
+      "collected_at": "2026-04-27T07:10:00.759359Z"
+    }
+  ],
+  "collected_at": "2026-04-27T07:10:00.759371Z"
+}

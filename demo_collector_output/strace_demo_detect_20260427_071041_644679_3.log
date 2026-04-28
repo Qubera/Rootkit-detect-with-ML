@@ -1,0 +1,42 @@
+23020 execve("/usr/bin/uname", ["uname", "-a"], 0x7ffd5048dad8 /* 22 vars */) = 0
+23020 brk(NULL)                         = 0x55fdd37b1000
+23020 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1e033ad000
+23020 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+23020 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+23020 fstat(3, {st_mode=S_IFREG|0644, st_size=103703, ...}) = 0
+23020 mmap(NULL, 103703, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f1e03393000
+23020 close(3)                          = 0
+23020 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+23020 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+23020 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+23020 fstat(3, {st_mode=S_IFREG|0755, st_size=2014472, ...}) = 0
+23020 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+23020 mmap(NULL, 2055760, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f1e0319d000
+23020 mmap(0x7f1e031c5000, 1474560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f1e031c5000
+23020 mmap(0x7f1e0332d000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x190000) = 0x7f1e0332d000
+23020 mmap(0x7f1e03380000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7f1e03380000
+23020 mmap(0x7f1e03386000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1e03386000
+23020 close(3)                          = 0
+23020 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1e0319a000
+23020 arch_prctl(ARCH_SET_FS, 0x7f1e0319a740) = 0
+23020 set_tid_address(0x7f1e0319aa10)   = 23020
+23020 set_robust_list(0x7f1e0319aa20, 24) = 0
+23020 rseq(0x7f1e0319a680, 0x20, 0, 0x53053053) = 0
+23020 mprotect(0x7f1e03380000, 16384, PROT_READ) = 0
+23020 mprotect(0x55fdc88c0000, 4096, PROT_READ) = 0
+23020 mprotect(0x7f1e033eb000, 8192, PROT_READ) = 0
+23020 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+23020 getrandom("\xea\x42\x08\x43\x76\x1a\x6f\x07", 8, GRND_NONBLOCK) = 8
+23020 munmap(0x7f1e03393000, 103703)    = 0
+23020 brk(NULL)                         = 0x55fdd37b1000
+23020 brk(0x55fdd37d2000)               = 0x55fdd37d2000
+23020 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+23020 fstat(3, {st_mode=S_IFREG|0644, st_size=3063024, ...}) = 0
+23020 mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f1e02e00000
+23020 close(3)                          = 0
+23020 uname({sysname="Linux", nodename="kali", ...}) = 0
+23020 fstat(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(0x88, 0x1), ...}) = 0
+23020 write(1, "Linux kali 6.19.11+kali-amd64 #1"..., 103) = 103
+23020 close(1)                          = 0
+23020 close(2)                          = 0
+23020 exit_group(0)                     = ?

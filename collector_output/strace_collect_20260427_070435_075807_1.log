@@ -1,0 +1,45 @@
+14247 execve("/usr/bin/kill", ["kill", "-63", "1"], 0x7ffdbe2e1c80 /* 22 vars */) = 0
+14247 brk(NULL)                         = 0x5575e3e09000
+14247 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9bac94d000
+14247 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+14247 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14247 fstat(3, {st_mode=S_IFREG|0644, st_size=103703, ...}) = 0
+14247 mmap(NULL, 103703, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9bac933000
+14247 close(3)                          = 0
+14247 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14247 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+14247 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+14247 fstat(3, {st_mode=S_IFREG|0755, st_size=2014472, ...}) = 0
+14247 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+14247 mmap(NULL, 2055760, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9bac73d000
+14247 mmap(0x7f9bac765000, 1474560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f9bac765000
+14247 mmap(0x7f9bac8cd000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x190000) = 0x7f9bac8cd000
+14247 mmap(0x7f9bac920000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7f9bac920000
+14247 mmap(0x7f9bac926000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9bac926000
+14247 close(3)                          = 0
+14247 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9bac73a000
+14247 arch_prctl(ARCH_SET_FS, 0x7f9bac73a740) = 0
+14247 set_tid_address(0x7f9bac73aa10)   = 14247
+14247 set_robust_list(0x7f9bac73aa20, 24) = 0
+14247 rseq(0x7f9bac73a680, 0x20, 0, 0x53053053) = 0
+14247 mprotect(0x7f9bac920000, 16384, PROT_READ) = 0
+14247 mprotect(0x5575ca416000, 4096, PROT_READ) = 0
+14247 mprotect(0x7f9bac98b000, 8192, PROT_READ) = 0
+14247 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+14247 getrandom("\x6a\x0e\x73\xaf\x32\x35\xef\x5d", 8, GRND_NONBLOCK) = 8
+14247 munmap(0x7f9bac933000, 103703)    = 0
+14247 brk(NULL)                         = 0x5575e3e09000
+14247 brk(0x5575e3e2a000)               = 0x5575e3e2a000
+14247 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14247 fstat(3, {st_mode=S_IFREG|0644, st_size=3063024, ...}) = 0
+14247 mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9bac400000
+14247 close(3)                          = 0
+14247 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+14247 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14247 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14247 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14247 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14247 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14247 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14247 kill(1, SIGRT_31)                 = 0
+14247 exit_group(0)                     = ?

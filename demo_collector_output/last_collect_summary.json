@@ -1,0 +1,79 @@
+{
+  "output_csv": "demo_detect.csv",
+  "total_rows_written": 4260,
+  "label": null,
+  "session_id": "demo_detect_20260427_071041_644679",
+  "commands": [
+    {
+      "raw_trace": "demo_collector_output/strace_demo_detect_20260427_071041_644679_1.log",
+      "rows_written": 184,
+      "label": null,
+      "session_id": "demo_detect_20260427_071041_644679",
+      "source_command": [
+        "ls",
+        "-la"
+      ],
+      "target_exit_code": 0,
+      "collected_at": "2026-04-27T07:10:41.657567Z"
+    },
+    {
+      "raw_trace": "demo_collector_output/strace_demo_detect_20260427_071041_644679_2.log",
+      "rows_written": 49,
+      "label": null,
+      "session_id": "demo_detect_20260427_071041_644679",
+      "source_command": [
+        "cat",
+        "/etc/hosts"
+      ],
+      "target_exit_code": 0,
+      "collected_at": "2026-04-27T07:10:41.665097Z"
+    },
+    {
+      "raw_trace": "demo_collector_output/strace_demo_detect_20260427_071041_644679_3.log",
+      "rows_written": 42,
+      "label": null,
+      "session_id": "demo_detect_20260427_071041_644679",
+      "source_command": [
+        "uname",
+        "-a"
+      ],
+      "target_exit_code": 0,
+      "collected_at": "2026-04-27T07:10:41.670800Z"
+    },
+    {
+      "raw_trace": "demo_collector_output/strace_demo_detect_20260427_071041_644679_4.log",
+      "rows_written": 127,
+      "label": null,
+      "session_id": "demo_detect_20260427_071041_644679",
+      "source_command": [
+        "id"
+      ],
+      "target_exit_code": 0,
+      "collected_at": "2026-04-27T07:10:41.683801Z"
+    },
+    {
+      "raw_trace": "demo_collector_output/strace_demo_detect_20260427_071041_644679_5.log",
+      "rows_written": 74,
+      "label": null,
+      "session_id": "demo_detect_20260427_071041_644679",
+      "source_command": [
+        "whoami"
+      ],
+      "target_exit_code": 0,
+      "collected_at": "2026-04-27T07:10:41.694496Z"
+    },
+    {
+      "raw_trace": "demo_collector_output/strace_demo_detect_20260427_071041_644679_6.log",
+      "rows_written": 3784,
+      "label": null,
+      "session_id": "demo_detect_20260427_071041_644679",
+      "source_command": [
+        "ps",
+        "aux"
+      ],
+      "target_exit_code": 0,
+      "collected_at": "2026-04-27T07:10:41.896644Z"
+    }
+  ],
+  "collected_at": "2026-04-27T07:10:41.896677Z"
+}

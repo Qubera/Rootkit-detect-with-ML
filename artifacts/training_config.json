@@ -1,0 +1,15 @@
+{
+  "window_sizes": [
+    3,
+    5,
+    10
+  ],
+  "top_bigrams_grid": [
+    20,
+    50,
+    100
+  ],
+  "test_size": 0.2,
+  "min_bigram_freq": 2,
+  "cv_splits": 3
+}

@@ -1,0 +1,49 @@
+23017 execve("/usr/bin/cat", ["cat", "/etc/hosts"], 0x7fff66cbf9e8 /* 22 vars */) = 0
+23017 brk(NULL)                         = 0x55584da92000
+23017 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f594db79000
+23017 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+23017 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+23017 fstat(3, {st_mode=S_IFREG|0644, st_size=103703, ...}) = 0
+23017 mmap(NULL, 103703, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f594db5f000
+23017 close(3)                          = 0
+23017 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+23017 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+23017 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+23017 fstat(3, {st_mode=S_IFREG|0755, st_size=2014472, ...}) = 0
+23017 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 840, 64) = 840
+23017 mmap(NULL, 2055760, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f594d969000
+23017 mmap(0x7f594d991000, 1474560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f594d991000
+23017 mmap(0x7f594daf9000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x190000) = 0x7f594daf9000
+23017 mmap(0x7f594db4c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7f594db4c000
+23017 mmap(0x7f594db52000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f594db52000
+23017 close(3)                          = 0
+23017 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f594d966000
+23017 arch_prctl(ARCH_SET_FS, 0x7f594d966740) = 0
+23017 set_tid_address(0x7f594d966a10)   = 23017
+23017 set_robust_list(0x7f594d966a20, 24) = 0
+23017 rseq(0x7f594d966680, 0x20, 0, 0x53053053) = 0
+23017 mprotect(0x7f594db4c000, 16384, PROT_READ) = 0
+23017 mprotect(0x5558278c6000, 4096, PROT_READ) = 0
+23017 mprotect(0x7f594dbb7000, 8192, PROT_READ) = 0
+23017 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+23017 getrandom("\x25\x97\xb1\xad\x28\x41\x89\xa3", 8, GRND_NONBLOCK) = 8
+23017 munmap(0x7f594db5f000, 103703)    = 0
+23017 brk(NULL)                         = 0x55584da92000
+23017 brk(0x55584dab3000)               = 0x55584dab3000
+23017 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+23017 fstat(3, {st_mode=S_IFREG|0644, st_size=3063024, ...}) = 0
+23017 mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f594d600000
+23017 close(3)                          = 0
+23017 fstat(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(0x88, 0x1), ...}) = 0
+23017 openat(AT_FDCWD, "/etc/hosts", O_RDONLY) = 3
+23017 fstat(3, {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+23017 fadvise64(3, 0, 0, POSIX_FADV_SEQUENTIAL) = 0
+23017 mmap(NULL, 270336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f594d924000
+23017 read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tka"..., 262144) = 184
+23017 write(1, "127.0.0.1\tlocalhost\n127.0.1.1\tka"..., 184) = 184
+23017 read(3, "", 262144)               = 0
+23017 munmap(0x7f594d924000, 270336)    = 0
+23017 close(3)                          = 0
+23017 close(1)                          = 0
+23017 close(2)                          = 0
+23017 exit_group(0)                     = ?
